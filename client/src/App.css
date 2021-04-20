@@ -1,0 +1,131 @@
+*{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    border-bottom: solid 1px var(--primary-color);
+    opacity: 0.9;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #fff;
+    padding: 0.45rem;
+    margin: 0 0.25rem;
+  }
+  
+  .navbar a:hover {
+    color: var(--primary-color);
+  }
+  
+  .navbar .welcome span {
+    margin-right: 0.6rem;
+  }
+
+  .links:hover { 
+    color:green;
+  }
+
+  .form .form-group {
+    margin: 1.2rem 0;
+  }
+  
+  .form .form-text {
+    display: block;
+    margin-top: 0.3rem;
+    color: #888;
+  }
+  
+  .form input[type='text'],
+  .form input[type='email'],
+  .form input[type='password'],
+  .form select,
+  .form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+  }
+  
+  .form input[type='submit'],
+  button {
+    font: inherit;
+  }
+
+  .user {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #b3e3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+  }
+  
+  .paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #ffb555;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    border: 2px solid black;
+    background-color: #f59314;
+    text-decoration: none;
+  }
+  
+  .paginationActive a {
+    color:white;
+    border: 3px solid black;
+    background-color:#f59314;
+  }
+  .paginationActive a:hover {
+    color:white;
+    border: 3px solid black;
+    background-color:#f59314;
+    text-decoration: none;
+  }
+  
+  .paginationDisabled a {
+    color: black;
+    border: 1px solid black;
+    background-color: grey;
+  }
+
+  .paginationDisabled a:hover {
+    color: black;
+    background-color: grey;
+    border: 1px solid black;
+    text-decoration: none;
+  }

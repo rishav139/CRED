@@ -1,0 +1,94 @@
+.container {
+  padding: 0%;
+}
+
+.container-fluid {
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .container-fluid2 {
+  background-image:
+    linear-gradient(
+      to bottom right, 
+      rgb(252, 230, 39), #f59314
+    );
+  }
+  .outline {
+    overflow: auto;
+    padding: 0%;
+    background-color: #1a1710;
+    width: 100%;
+  }
+  
+  .header {
+    overflow: auto;
+    color: #e8ba13;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1710;
+  }
+  
+  .welcome {
+    padding: 2%;
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    width: 90%;
+    max-width: 180px;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .card {
+  background-image:
+    linear-gradient(
+      to bottom, 
+      rgb(252, 230, 39), #f8991d
+    );
+    margin: 3% 3%;
+    padding: 3% 1%;
+    cursor: pointer;
+    border-radius: 4%;
+  }
+  
+  .logo{
+    width: 50px;
+    margin-right: 10px;
+    height: 50px;
+  }
+
+  .reward{
+    height:'50px';
+    width:'50px';
+    background-image:
+    linear-gradient(
+      to bottom, 
+      rgb(252, 230, 39), #f8991d
+    );
+    
+  }
