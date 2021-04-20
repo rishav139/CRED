@@ -37,13 +37,11 @@ Team ID: CRED-T6 | Team Members: Rishav Raj &amp; Shivam Kirti
 
 <br />
 
-<code> <img src=".\Android\Images\HomeScreen.jpeg" alt="Home Screen" width=50% height=50%></code>
+<img src=".\Android\Images\HomeScreen.jpeg" alt="Home Screen" width=50% height=50%><img src=".\Android\Images\Statement.jpeg" alt="Statement" width=50% height=50%>
 
-<code><img src=".\Android\Images\Statement.jpeg" alt="Statement" width=50% height=50%></code>
+<br />
 
-<code><img src=".\Android\Images\AddCard.jpeg" alt="Add Card" width=50% height=50%></code>
-
-<code><img src=".\Android\Images\Rewards.jpeg" alt="Rewards" width=50% height=50%></code>
+<img src=".\Android\Images\AddCard.jpeg" alt="Add Card" width=50% height=50%><img src=".\Android\Images\Rewards.jpeg" alt="Rewards" width=50% height=50%>
 
 <br />
 
